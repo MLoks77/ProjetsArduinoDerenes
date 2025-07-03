@@ -1,0 +1,2 @@
+En gros c'est un code pour faire tourner un panneau solaire suivant le meilleur rendement du soleil. ( luminosité )
+Actuellement il manque le code pour le pavé numérique sécurisé qui devait ouvrir un coffre fort
