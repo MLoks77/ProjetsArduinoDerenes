@@ -1,3 +1,9 @@
+/*
+Ce programme Arduino lit l'UID d'un badge RFID à l'aide d'un module RFID.
+- Lorsqu'une carte est détectée, il affiche l'UID sur le moniteur série.
+- Il utilise la bibliothèque RFID pour la communication avec le module.
+Ce code est une version simplifiée, sans vérification d'accès.
+*/
 #include <SPI.h>
 #include "RFID.h"
 RFID monModuleRFID (10,9); 

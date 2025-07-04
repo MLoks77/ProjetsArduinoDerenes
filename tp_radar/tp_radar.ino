@@ -1,3 +1,9 @@
+/*
+Ce programme teste l'affichage d'un écran LCD compatible I2C.
+- Il affiche le message "Le LCD MARCHE" sur l'écran LCD 16x2 à l'initialisation.
+- Ensuite, il fait clignoter l'affichage toutes les 500 ms.
+- Plusieurs bibliothèques LCD sont incluses, mais seule la fonction LCD.begin() est utilisée.
+*/
 #include <FastIO.h>
 #include <I2CIO.h>
 #include <LCD.h>

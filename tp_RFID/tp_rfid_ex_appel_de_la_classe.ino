@@ -1,3 +1,10 @@
+/*
+Ce programme utilise un module RFID pour contrôler l'accès à l'aide de badges.
+- Il lit l'UID d'un badge RFID et le compare à deux clés maîtres prédéfinies.
+- Si l'UID correspond, il active un servo-moteur (ouverture), allume une LED verte et joue une mélodie sur un buzzer.
+- Sinon, il allume brièvement une LED rouge.
+- Le système utilise également la bibliothèque Servo pour contrôler un moteur et la bibliothèque RFID pour la lecture des badges.
+*/
 #include <SPI.h>
 #include "RFID.h"
 #include <Servo.h>

@@ -1,3 +1,9 @@
+/*
+Ce programme permet de contrôler une prise électrique (ou une lampe) via un signal radio 433 MHz.
+- Il utilise la bibliothèque RCSwitch pour envoyer des codes ON/OFF.
+- L'utilisateur envoie une commande via le port série : 1 pour allumer, 0 pour éteindre.
+- Le code correspondant est transmis par radio pour piloter la prise.
+*/
 #include <RCSwitch.h>
 RCSwitch mySwitch = RCSwitch();
 

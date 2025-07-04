@@ -1,4 +1,9 @@
-
+/*
+Ce programme Arduino reçoit des messages radio 433 MHz à l'aide de la bibliothèque VirtualWire.
+- Il écoute les messages et, selon leur contenu, bascule l'état de deux LEDs ou effectue un clignotement alterné.
+- Les commandes reconnues sont "SD1", "SD2" et "Bonjour".
+- Le résultat des actions est affiché sur le moniteur série.
+*/
 #include <VirtualWire.h>
 const byte PIN_LED_A=7;
 const char* CMD_BUTTON_A="SD1";
